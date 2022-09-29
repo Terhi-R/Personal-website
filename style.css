@@ -97,6 +97,7 @@ img {
 
 .about-image {
     border-radius: 8px;
+
 }
 
 .about-box {
@@ -115,10 +116,21 @@ img {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    width: 180px;
+
 }
 
 .button:hover {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     background: white;
+}
+
+@media (max-width: 720px) {
+div {
+    text-align: center !important;
+    align-items: center;
+
+}
+
 }
