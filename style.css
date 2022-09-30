@@ -90,20 +90,20 @@ p {
 
 img {
     width: 600px !important;
-
     height: 400px !important;
     object-fit: contain !important;
 }
 
 .about-image {
     border-radius: 8px;
-
 }
 
 .about-box {
     background: var(--secondary-color);
     border-radius: 8px;
+ 
 }
+
 
 .button {
     font-size: 12px;
@@ -126,11 +126,20 @@ img {
     background: white;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 div {
-    text-align: center !important;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        min-width: 550px;
+    }
+
+.navigation-links {
+    flex-direction: row;
+    }
+
 
 }
 
-}
