@@ -6,6 +6,7 @@
 
 body {
     margin: 60px auto;
+
 }
 
 h1,
@@ -133,13 +134,15 @@ div {
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        min-width: 550px;
+
     }
 
 .navigation-links {
     flex-direction: row;
     }
 
-
 }
+
+
+
 
