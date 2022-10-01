@@ -128,19 +128,17 @@ img {
 }
 
 @media (max-width: 768px) {
-div {
+    div {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         text-align: center;
-
     }
 
-.navigation-links {
-    flex-direction: row;
+    .navigation-links {
+        flex-direction: row;
     }
-
 }
 
 
