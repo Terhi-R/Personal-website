@@ -140,7 +140,7 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    padding-top: 15px;
+    padding-top: 40px;
 }
 
 img {
