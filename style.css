@@ -41,7 +41,7 @@ h3 {
     padding-bottom: 310px !important;
 }
 
-#about {
+.about {
     color: var(--base-color);
 }
 
