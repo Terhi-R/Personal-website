@@ -157,15 +157,18 @@ img {
     margin-top: 55px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 900px) {
     .photo-box {
         margin-top: 170px;
-        margin-left: 15px;
-    }
-    .weather-box {
+        margin-left: 50px;
         margin-right: 15px;
     }
+    .weather-box {
+        margin-right: 50px;
+        margin-left: 15px;
+    }
 }
+
 .button {
     font-size: 12px;
     margin: 20px;
@@ -202,9 +205,10 @@ img {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
     .myWork {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
