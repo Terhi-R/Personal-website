@@ -6,6 +6,7 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 body {
     background-color: var(--base-color) !important;
 }
@@ -24,6 +25,7 @@ h3 {
 
 h1 {
     color: var(--third-color);
+    font-size: 100px !important;
 }
 
 h2 {
@@ -33,6 +35,10 @@ h2 {
 h3 {
     opacity: 0.7;
     color: white;
+}
+
+.frontPage {
+    padding-bottom: 200px;
 }
 
 #about {
@@ -54,25 +60,6 @@ p {
 
 }
 
-
-.music {
-    margin-left: 120px;
-
-    border-radius: 4px;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background-color: var(--third-color);
-    color: white;
-    box-shadow: var(--box-shadow);
-}
-
-.music:hover {
-    background-color: white;
-    color: var(--primary-color);
-    transition: all 0.5s;
-}
-
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -87,6 +74,20 @@ p {
     text-transform: capitalize;
 }
 
+.myWork-link {
+    box-shadow: var(--box-shadow);
+    background: var(--third-color);
+    color: white;
+    margin-right: 40px !important;
+}
+
+.myWork-link:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: white;
+    transition: all 0.5s;
+}
+
 .about-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -95,9 +96,9 @@ p {
 }
 
 .about-link:hover {
-    color: var(--primary-color);
+    background: var(--third-color);
+    color: white;
     border: 1px solid var(--primary-color);
-    background: white;
     transition: all 0.5s;
 }
 
@@ -105,15 +106,14 @@ p {
     color: var(--primary-color);
     box-shadow: var(--box-shadow);
     border: 1px solid var(--primary-color);
-    margin-left: 40px !important;
     background-color: white;
 }
 
 .contact-link:hover {
-    background: var(--third-color);
-    box-shadow: var(--box-shadow);
+    background: var(--primary-color);
     color: white;
-        transition: all 0.5s;
+    box-shadow: var(--box-shadow);
+    transition: all 0.5s;
 }
 
 .homepage-link {
@@ -123,15 +123,20 @@ p {
 }
 
 .email-link {
-    display: flex;
-    justify-content: center;
     color: var(--primary-color);
-    padding-top: 15px;
     text-decoration: none;
 }
 
 .email-link:hover {
+    color: var(--third-color);
     text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    padding-top: 15px;
 }
 
 img {
@@ -211,4 +216,9 @@ img {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.bottom {
+    background: var(--primary-color);
+    color: var(--base-color)
 }
