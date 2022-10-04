@@ -201,6 +201,10 @@ img {
         margin-right: 50px;
         margin-left: 15px;
     }
+    .about-size {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -218,10 +222,10 @@ img {
 
     .myWork {
         display: flex;
+        justify-content: space-around;
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 @media (max-width: 1000px) {
@@ -229,6 +233,11 @@ h1 {
         font-size: 70px !important;
         transition: all 0.4s;
     }
+.about-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 780px) {
@@ -250,3 +259,4 @@ h1 {
     background: var(--primary-color);
     color: var(--base-color)
 }
+
