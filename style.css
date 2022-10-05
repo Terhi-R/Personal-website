@@ -4,16 +4,34 @@
     --third-color: #FF6F5E;
     --base-color: #F7F8F3;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --about-base: #F1EEE5;
+    --about-primary: #323B20;
+    --about-secondary: #819C4B;
 }
-
 
 body {
     background-color: var(--base-color) !important;
 }
 
-section {
+.aboutBody {
+    width: 60%;
+    background: var(--primary-color) !important;
+}
+
+.frontSection {
     background-color: var(--primary-color);
 }
+
+.intro {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 40%;
+    background: var(--base-color);
+
+}
+
 
 h1,
 h2,
@@ -35,6 +53,10 @@ h2 {
 h3 {
     opacity: 0.7;
     color: white;
+}
+
+.aboutH {
+    color: var(--primary-color) !important;
 }
 
 .frontPage {
@@ -63,6 +85,8 @@ p {
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
     color: var(--primary-color);
 }
+
+
 
 .navigation-links {
     display: flex;
@@ -147,8 +171,11 @@ img {
     object-fit: contain !important;
 }
 
-.about-image {
-    border-radius: 8px;
+
+
+.about-img {
+   width: 700px;
+
 }
 
 .weather-box {
@@ -253,6 +280,7 @@ h1 {
 .about-link {
     margin-right: 10px !important;
 }
+
 }
 
 .bottom {
