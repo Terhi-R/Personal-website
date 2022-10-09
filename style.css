@@ -18,8 +18,16 @@ body {
     background: var(--primary-color) !important;
 }
 
+.workBody {
+
+}
+
 .frontSection {
     background-color: var(--primary-color);
+}
+
+.workSection {
+    background: var(--primary-color);
 }
 
 .intro {
@@ -31,7 +39,6 @@ body {
     background: var(--base-color);
 
 }
-
 
 h1,
 h2,
@@ -55,8 +62,17 @@ h3 {
     color: white;
 }
 
+h4 {
+    text-align: center;
+}
+
 .aboutH {
     color: var(--primary-color) !important;
+}
+
+.workH {
+    font-size: 80px !important;
+    text-align: start;
 }
 
 .frontPage {
@@ -85,8 +101,6 @@ p {
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
     color: var(--primary-color);
 }
-
-
 
 .navigation-links {
     display: flex;
@@ -151,7 +165,7 @@ p {
 }
 
 .email-link {
-    color: var(--primary-color);
+    color: var(--base-color);
     text-decoration: none;
 }
 
@@ -163,19 +177,42 @@ p {
 .contact {
     display: flex;
     justify-content: center;
-    color: var(--primary-color);
+    color: var(--base-color);
     padding-top: 40px;
 }
 
 img {
-    object-fit: contain !important;
+    object-fit: cover !important;
 }
-
-
 
 .about-img {
    width: 700px;
 
+}
+
+.workimg {
+    background: var(--primary-color);
+    overflow: hidden;
+}
+
+.imgWork {
+    width: 480px;
+    height: 480px !important;
+    object-position: 45%;
+    opacity: 0.4;
+}
+
+.imgWork:hover {
+    opacity: 0.2;
+    transition: ease-in-out;
+    cursor: pointer;
+}
+
+.workbox {
+    height: 300px;
+    align-self: center;
+    border-radius: 10px;
+    color: var(--third-color);
 }
 
 .weather-box {
@@ -284,7 +321,7 @@ h1 {
 }
 
 .bottom {
-    background: var(--primary-color);
-    color: var(--base-color)
+    background: var(--base-color);
+    color: var(--primary-color)
 }
 
