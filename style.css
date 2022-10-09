@@ -175,10 +175,7 @@ p {
 }
 
 .contact {
-    display: flex;
-    justify-content: center;
     color: var(--base-color);
-    padding-top: 40px;
 }
 
 img {
@@ -320,7 +317,7 @@ h1 {
 
 }
 
-.bottom {
+footer {
     background: var(--base-color);
     color: var(--primary-color)
 }
