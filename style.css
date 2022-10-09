@@ -18,10 +18,6 @@ body {
     background: var(--primary-color) !important;
 }
 
-.workBody {
-
-}
-
 .frontSection {
     background-color: var(--primary-color);
 }
@@ -67,6 +63,7 @@ h4 {
 }
 
 .aboutH {
+    font-size: 70px !important;
     color: var(--primary-color) !important;
 }
 
@@ -299,6 +296,9 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+.aboutH {
+    font-size: 40px !important;
+}
 }
 
 @media (max-width: 780px) {
@@ -313,6 +313,18 @@ h1 {
 
 .about-link {
     margin-right: 10px !important;
+}
+
+.intro {
+    transition: all 0.2s;
+    position: relative;
+    width: 100%;
+    background: var(--base-color);
+    padding: 20px;
+}
+
+.aboutBody {
+    width: 100%;
 }
 
 }
